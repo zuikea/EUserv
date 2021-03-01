@@ -5,6 +5,7 @@ on:
   schedule:
     - cron: '0 0 1 * *'
 
+
 jobs:
   avoid_workflow_suspended:
     runs-on: ubuntu-latest
